@@ -24,7 +24,6 @@ info("Building for $(join(triplet.(platforms), ", "))")
 sources = [
     "https://computation.llnl.gov/projects/sundials/download/sundials-3.1.0.tar.gz" =>
     "18d52f8f329626f77b99b8bf91e05b7d16b49fde2483d3a0ea55496ce4cdd43a",
-,
     "http://faculty.cse.tamu.edu/davis/SuiteSparse/SuiteSparse-5.0.0.tar.gz" =>
     "7162e3a9fda729b3d46183307e93326e3cde726c72b1ec79a973060b16e6b3be",
 ]
