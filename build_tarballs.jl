@@ -104,10 +104,10 @@ products = prefix -> [
 
 
 # Build the given platforms using the given sources
-hashes = autobuild(pwd(), "SundialsKLUBuilder", platforms, sources, script, products)
+hashes = autobuild(pwd(), "SundialsKLU", platforms, sources, script, products)
 
 if !isempty(get(ENV,"TRAVIS_TAG",""))
     print_buildjl(pwd(), products, hashes,
-        "https://github.com/LibGit2.GitRepo("/tmp/juliamjdpyu")/releases/download/$(ENV["TRAVIS_TAG"])")
+        "https://github.com/tshort/SundialsKLUBuilder/releases/download/$(ENV["TRAVIS_TAG"])")
 end
 
